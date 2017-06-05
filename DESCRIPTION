@@ -1,11 +1,12 @@
 Package: Africannamegen
 Type: Package
-Title: Turn your name into one of South African Origin
+Title: South African Name Generator
 Version: 0.1.0
-Author: Cary Goeller, Conor McLaughlin, Raghav conor 
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Cary Goeller, Raghav Kumar, Conor McLaughlin
+Maintainer: Cary Goeller <carygoeller@gmail.com>
+Description: This package is an algorithm that takes a person's input (their name) selects the first letter and then converts the letter to an asking number.
+Then correlates the asking number with names from the data set and then randomly generates a south african name.
+The South African names from the table were collected from http://babynames.allparenting.com/babynames/Ideas/South_African_Baby_Names_and_Meanings_Boys_and_Girls/ , which is a list of common baby names within South Africa.
+License: Public
 Encoding: UTF-8
 LazyData: true
