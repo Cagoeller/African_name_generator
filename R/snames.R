@@ -21,8 +21,9 @@
 
 if (FALSE){
 
+  #running this will only work on Author's computer as the file path to the csv is different
   library(readr)
   snames = read_csv("~/South Africa/Week 1/Package/South african names.csv")
-})
+}
 
 
