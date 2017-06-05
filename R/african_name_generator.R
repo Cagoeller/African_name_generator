@@ -1,5 +1,15 @@
+#' Find out what your African name is
+#'
+#' @param name
+#' @param boy
+#' @return null
+#'
+#' @examples
+#' african_name("ben")
+#' african_name("stacy", boy = FALSE)
+#' @export
 
-african_name = function(name = "A", boy = TRUE){
+african_name = function(name, boy = TRUE){
   #error checkers here
 
   #gender = toupper(gender)
