@@ -8,7 +8,7 @@ african_name = function(name = "A", boy = TRUE){
     name = toupper(name)
     first = substr(name, 0,1)
     ascii = utf8ToInt(first)
-    name_list = snames[snames$ASCII_1 == ascii, 4]
+    name_list = data.frame( name = snames[snames$ASCII_1 == ascii, 4])
     name_list = na.omit(name_list)
     african = name_list[runif(1,1,nrow(name_list)+1),1]
 
@@ -17,7 +17,7 @@ african_name = function(name = "A", boy = TRUE){
     name = toupper(name)
     first = substr(name, 0, 1)
     ascii = utf8ToInt(first)
-    name_list = snames[snames$ASCII == ascii, 1]
+    name_list = data.frame(name = snames[snames$ASCII == ascii, 1])
     name_list = na.omit(name_list)
     african = name_list[runif(1,1,nrow(name_list)+1),1]
   }
