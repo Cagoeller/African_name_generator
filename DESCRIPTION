@@ -8,3 +8,4 @@ Description: This package is an algorithm that takes a person's input (their nam
 License: Public
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
